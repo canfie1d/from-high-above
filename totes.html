@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link media="screen" href="support/styles.css" type="text/css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="images/favicon.ico" />
+        <link rel="image_src" href="apple-touch-icon-precomposed.png"/>
+        <meta name="description" content="High Above is a soft goods design, prototyping and short run manufacturing company in Seattle, WA.">
+        <meta name="robots" content="index,follow">
+        <title>HIGH ABOVE | Handmade in Seattle</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="High Above">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="./support/jquery-2.1.1.min.js"></script>
+    </head>
+    <body class='body__work'>
+        <header class='header'>
+            <span class='branding'><a href="./index.html"></a></span>
+            <nav class="nav">
+                <div class="nav-toggle js-nav-toggle">
+                    <span>MENU</span>
+                </div>
+                <ul class='nav__list'>
+                    <li class='nav__item'>
+                        <a href='./index.html' class='nav__link nav__link--home'>Home</a>
+                    </li>
+                    <li class='nav__item'>
+                        <a href='./work.html' class='nav__link nav__link--work'>Work</a>
+                    </li>
+                    <li class='nav__item'>
+                        <a href='./resume.html' class='nav__link nav__link--resume'>Résumé</a>
+                    </li>
+                    <li class='nav__item'>
+                        <a href='mailto:canfield.john@gmail.com' class='nav__link'>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper wrapper--full-width clearfix">
+            <main>
+                <a href='./work.html' class='back-button'>&#8606; Back</a>
+                <h1 class='gallery__title'>Totes</h1>
+                <ul class='gallery__list'>
+                    <li class='gallery__item'>
+                        <img class='gallery__img' src='./images/totes/totes-1.jpg' />
+                    </li>
+                    <li class='gallery__item gallery__item--gray'>
+                        <div class='gallery__item--half'>
+                            <img class='gallery__img' src='./images/totes/totes-2.jpg' />
+                        </div>
+                        <div class='gallery__item--half'>
+                            <img class='gallery__img' src='./images/totes/totes-3.jpg' />
+                        </div>
+                    </li>
+                    <li class='gallery__item'>
+                        <div class='gallery__item--half'>
+                            <img class='gallery__img' src='./images/totes/totes-4.jpg' />
+                        </div>
+                        <div class='gallery__item--half'>
+                            <img class='gallery__img' src='./images/totes/totes-5.jpg' />
+                        </div>
+                    </li>
+                    <li class='gallery__item gallery__item--gray'>
+                        <img class='gallery__img' src='./images/totes/totes-6.jpg' />
+                    </li>
+                    <li class='gallery__item'>
+                        <img class='gallery__img' src='./images/totes/totes-7.jpg' />
+                    </li>
+                    <li class='gallery__item gallery__item--gray'>
+                        <img class='gallery__img' src='./images/totes/totes-8.jpg' />
+                    </li>
+                </ul>
+            </main>
+        </div>
+        <footer class='footer'>
+            <a href='./work.html' class='back-button'>&#8606; Back</a>
+            <a href="http://www.highabove.jp" class="footer__link">HighAbove.jp</a>
+        </footer>
+    </body>
+    <script>
+        $('.js-nav-toggle').click(function() {
+            $('.nav__list').toggleClass('nav__list--active');
+        });
+    </script>
+</html>
